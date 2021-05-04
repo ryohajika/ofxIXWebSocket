@@ -8,6 +8,13 @@
 #include "IXNetSystem.h"
 #include "IXWebSocket.h"
 
+#define OFX_WS_BEGIN_MESSAGE std::cout \
+							 << "====== OFX_IX_WEBSOCKET_LOG_BEGIN ======" \
+							 << std::endl;
+#define OFX_WS_END_MESSAGE std::cout \
+						   << "======= OFX_IX_WEBSOCKET_LOG_END =======" \
+						   << std::endl;
+
 class ofxIXWebSocket {
 private:
     void wsEventCallback(const ix::WebSocketMessagePtr & msg);
@@ -36,10 +43,16 @@ public:
 	void sendMessage(std::string msg_str);
 	void sendMessage(char* msg_chars);
 	
+	void setPinging(bool val);
+	bool getPinging();
 	void setIntervalPingSec(unsigned sec);
 	int getIntervalPingSec();
 	void setPerMessageDeflate(bool val);
 	bool getPerMessageDeflate();
  
     ofEvent<ix::WebSocketHttpHeaders> onOpenEvt;
+	ofEvent<std::pair<uint16_t, std::string>> onCloseEvt;
+	ofEvent<ix::WebSocketErrorInfo> onErrorEvt;
+	ofEvent<std::string> onPongEvt;
+	ofEvent<std::string> onMessageEvt;
 };

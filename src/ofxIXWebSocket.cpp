@@ -28,37 +28,90 @@ void ofxIXWebSocket::wsEventCallback(const ix::WebSocketMessagePtr &msg){
     switch (msg->type) {
         case ix::WebSocketMessageType::Open:
             {
+				ofLogNotice("ofxIXWebSocket", "connected!");
+				
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						for(auto it : msg->openInfo.headers){
+							std::cout << it.first << ": " << it.second << std::endl;
+						}
+					}
+					OFX_WS_END_MESSAGE
+				}
                 ofNotifyEvent(onOpenEvt, msg->openInfo.headers);
             }
             break;
         case ix::WebSocketMessageType::Close:
             {
-            
+				ofLogNotice("ofxIXWebSocket", "disconnected!");
+				
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						std::cout << msg->closeInfo.reason
+							<< "@" << msg->closeInfo.code << std::endl;
+					}
+					OFX_WS_END_MESSAGE
+				}
+				std::pair<uint16_t, std::string> _pair(msg->closeInfo.code,
+													   msg->closeInfo.reason);
+				ofNotifyEvent(onCloseEvt, _pair);
             }
             break;
         case ix::WebSocketMessageType::Error:
             {
-            
+				ofLogNotice("ofxIXWebSocket", "error");
+				
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						std::cout << "Error: " << msg->errorInfo.reason << std::endl;
+						std::cout << "retries count: " << msg->errorInfo.retries << std::endl;
+						std::cout << "Wait time (MS): " << msg->errorInfo.wait_time << std::endl;
+						std::cout << "HTTP Status: " << msg->errorInfo.http_status << std::endl;
+					}
+					OFX_WS_END_MESSAGE
+				}
+				ofNotifyEvent(onErrorEvt, msg->errorInfo);
             }
             break;
         case ix::WebSocketMessageType::Ping:
-            {
-            
-            }
-            break;
         case ix::WebSocketMessageType::Pong:
             {
-            
+				ofLogNotice("ofxIXWebSocket", "ping/pong");
+				
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						std::cout << "Pong data: " << msg->str << std::endl;
+					}
+					OFX_WS_END_MESSAGE
+				}
+				ofNotifyEvent(onPongEvt, msg->str);
             }
             break;
         case ix::WebSocketMessageType::Message:
             {
-            
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						std::cout << "Received: " << msg->str << std::endl;
+					}
+					OFX_WS_END_MESSAGE
+				}
+				ofNotifyEvent(onMessageEvt, msg->str);
             }
             break;
         case ix::WebSocketMessageType::Fragment:
             {
-            
+				if(_b_verbose){
+					OFX_WS_BEGIN_MESSAGE
+					{
+						std::cout << "FRGMT received: " << msg->str << std::endl;
+					}
+					OFX_WS_END_MESSAGE
+				}
             }
             break;
     }
@@ -124,4 +177,32 @@ inline bool ofxIXWebSocket::getVerbose(){
         ofLogNotice() << __PRETTY_FUNCTION__ << std::endl;
     }
     return _b_verbose;
+}
+
+void ofxIXWebSocket::connect(){
+	
+}
+void ofxIXWebSocket::disconnect(){
+	
+}
+
+void ofxIXWebSocket::sendMessage(std::string msg_str){
+	
+}
+void ofxIXWebSocket::sendMessage(char *msg_chars){
+	
+}
+
+void ofxIXWebSocket::setIntervalPingSec(unsigned int sec){
+	
+}
+inline int ofxIXWebSocket::getIntervalPingSec(){
+	
+}
+
+void ofxIXWebSocket::setPerMessageDeflate(bool val){
+	
+}
+inline bool ofxIXWebSocket::getPerMessageDeflate(){
+	
 }
