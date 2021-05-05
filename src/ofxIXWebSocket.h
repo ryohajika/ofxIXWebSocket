@@ -17,12 +17,19 @@
 
 class ofxIXWebSocket {
 private:
+	void init(std::string target_address,
+			  std::string sub_address,
+			  int target_port);
     void wsEventCallback(const ix::WebSocketMessagePtr & msg);
+	
     ix::WebSocket ws_;
+	ix::SocketTLSOptions *tls_;
+	
 	std::string _host;
     std::string _sub;
 	int _port;
     std::string _host_final;
+	
 	int _ping_intvl_sec;
     bool _b_per_msg_deflate;
     bool _b_verbose;
@@ -36,6 +43,11 @@ public:
     void setup(std::string target_address,
                std::string sub_address,
                int target_port);
+	void setup(std::string target_address,
+			   std::string sub_address,
+			   std::string cacert_filepath,
+			   int target_port);
+	void setCacertFile(std::string filepath);
     void setVerbose(bool val);
     bool getVerbose();
 	void connect();

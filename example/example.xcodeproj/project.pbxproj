@@ -9,6 +9,60 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>110E22E79376B41BA364911D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1E86664A9339E6492E853A83</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1E86664A9339E6492E853A83</key>
+			<dict>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Foundation.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/Foundation.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>ED08BD0A24C8CB643A8567D9</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>31EE2F159CCF304AFEF13A73</string>
+					<string>1E86664A9339E6492E853A83</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>frameworks</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FDCB97E23CB71E30D579B71E</key>
+			<dict>
+				<key>fileRef</key>
+				<string>31EE2F159CCF304AFEF13A73</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>31EE2F159CCF304AFEF13A73</key>
+			<dict>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Security.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/Security.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
 			<key>85D2CA515F0EF0D4AFFC5E49</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -60,1372 +114,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B3603F0A8F7E59FAAEE5903C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>x509v3.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/x509v3.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DCA4F40152EE6A9ABE490CAB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>x509_vfy.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/x509_vfy.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>CA75F850CFCB44265D7D3E20</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>x509.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/x509.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>97C94941F7236B344A67D0A1</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>whrlpool.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/whrlpool.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B054C1E5F765586B9BFA7F0F</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ui.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B268DD911237FE9E1B7F930D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>txt_db.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/txt_db.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>EBD15B4F033F1A06B203FC51</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ts.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ts.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>13C3F2EF1CFA47A5ECDC9434</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>tls1.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/tls1.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>9C4AF6CD04EA53E6A60280AC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>symhacks.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/symhacks.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>021AC398999AB3EDB3103EC7</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stack.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/stack.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>C447CF69C6E85F394AA9EE89</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ssl3.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ssl3.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>BB128E69D3651EC3436DE620</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ssl2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ssl2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>606F1590D3762ECA2C706BB9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ssl.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ssl.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>10B82D47287343119A47614B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>srtp.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/srtp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8FE60428D7678C8D52557F33</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>srp.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/srp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2BE16A45BBA84E509C949B92</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>sha.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/sha.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>955CA22F926A876647E0A7D4</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>seed.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/seed.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B763A1176AB76D4FBB430480</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>safestack.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/safestack.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>030E7F8D069A72BD8FF36F00</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rsa.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/rsa.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>34ACF2DE24B52C00E508F96F</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ripemd.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ripemd.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B5568380FEB983C0EA50F169</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rc5.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/rc5.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B5C764D5F61EA9BFD4322AED</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rc4.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/rc4.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>409A178AE97C535422132180</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rc2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/rc2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3EF9243C0EDF09625777C594</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rand.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/rand.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>05D4EDE5B511BE0C722CBA99</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>pkcs7.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/pkcs7.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0980241BE131F3A91DF083BB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>pkcs12.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/pkcs12.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3D5EECB6FCCF52CFE66DD14C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>pem2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/pem2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4082F2A42CE04B4BBA0B55FC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>pem.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/pem.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>AB669885660C8337E248F291</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ossl_typ.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ossl_typ.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>69963FE5D976FE2DAA0A3420</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>opensslv.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/opensslv.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>18A2AD3160DC3113A20FC224</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>opensslconf_osx.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/opensslconf_osx.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>C0666348A681AAF15A44FA42</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>opensslconf.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/opensslconf.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>71B9EE9AD1E7C283E6B2F8EE</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ocsp.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ocsp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F465DD38E5B37543492F446B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>objects.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/objects.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0097256BEFE767EAC0B6D243</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>obj_mac.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/obj_mac.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>27F56DD90E5FAA8E27BB61A6</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>modes.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/modes.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>1D33EB1B6D5E67174C7D15D2</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>mdc2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/mdc2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>CE8214571CD1AE819F4F3905</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>md5.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/md5.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4F754499DF456997C75A78B9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>md4.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/md4.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0DE39C47DBD3421A851BB33A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>md2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/md2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E17D933D2D5ACBE1F97F3477</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>lhash.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/lhash.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E49EA4AA1A487492A4F3CEF9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>kdf.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/kdf.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>D32ED5985D3CFC7301DC42B5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>idea.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/idea.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>D4F48F6F60D99739BCED1022</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>hmac.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/hmac.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>921E037A44A2400CBB2E0F8F</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>evp.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/evp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>861E7FC1DFEFB0B8EEB32F4D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>err.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/err.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4B82C4357586B882B1A11BAD</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>engine.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/engine.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>ADDF55B516BCDB5ECBC24565</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ecdsa.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ecdsa.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0FD969DD6B879E08CFDEEA73</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ecdh.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ecdh.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8F955DEDAE7C2E5CD6AA936E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ec.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ec.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A3D9616AEAA0C65A8589BFE4</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ebcdic.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ebcdic.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>688A1C6AC9FEE3EB2E495C7E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>e_os2.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/e_os2.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4B61875EE61E38D67695DA9A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>dtls1.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/dtls1.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>BDD024D95B664E6FDC54CFAA</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>dsa.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/dsa.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>89D4271DFB868B2D4E70E11D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>dh.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/dh.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2FA84C4AFDEE07FC6C1448FA</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>des.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/des.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>5143AB323371BD2543EC93F5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ct.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/ct.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8C8A84E9A696FF848A2F802B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>crypto.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/crypto.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>88CCA80A3EE5B3998DFBC307</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>conf_api.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/conf_api.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4051C9530DB196A4F7B6A53A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>conf.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/conf.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>D64BFC0207FE9EE394DEE0D6</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>comp.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/comp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F1DCFA220C00514CA2F00EC4</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>cms.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/cms.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>5ACA7B07FDEB6CB02B376B73</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>cmac.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/cmac.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DF0424214D62D68544E405E5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>cast.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/cast.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DB5430A0F5A2EB5DFAD9C02C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>camellia.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/camellia.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2462C060F024BBDAB377F512</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>buffer.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/buffer.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>EB5DCB7905B3A6196D6C698E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>bn.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/bn.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>43A190A5302FA8CE22F3F950</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>blowfish.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/blowfish.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2937FA270CBEB06A6A4142CD</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>bio.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/bio.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>16875432951E888DED2524ED</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>async.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/async.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>06E0F5B9D0733FD83F6CB6C5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>asn1t.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/asn1t.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2D6433EA7872E6BA1ED6612B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>asn1_mac.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/asn1_mac.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>311D58EBCFB07A35B08C1811</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>asn1.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/asn1.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>873FCEE79DC1870229F5F0FE</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>2C652EBF09E5ACE1FCA5EB54</string>
-					<string>311D58EBCFB07A35B08C1811</string>
-					<string>2D6433EA7872E6BA1ED6612B</string>
-					<string>06E0F5B9D0733FD83F6CB6C5</string>
-					<string>16875432951E888DED2524ED</string>
-					<string>2937FA270CBEB06A6A4142CD</string>
-					<string>43A190A5302FA8CE22F3F950</string>
-					<string>EB5DCB7905B3A6196D6C698E</string>
-					<string>2462C060F024BBDAB377F512</string>
-					<string>DB5430A0F5A2EB5DFAD9C02C</string>
-					<string>DF0424214D62D68544E405E5</string>
-					<string>5ACA7B07FDEB6CB02B376B73</string>
-					<string>F1DCFA220C00514CA2F00EC4</string>
-					<string>D64BFC0207FE9EE394DEE0D6</string>
-					<string>4051C9530DB196A4F7B6A53A</string>
-					<string>88CCA80A3EE5B3998DFBC307</string>
-					<string>8C8A84E9A696FF848A2F802B</string>
-					<string>5143AB323371BD2543EC93F5</string>
-					<string>2FA84C4AFDEE07FC6C1448FA</string>
-					<string>89D4271DFB868B2D4E70E11D</string>
-					<string>BDD024D95B664E6FDC54CFAA</string>
-					<string>4B61875EE61E38D67695DA9A</string>
-					<string>688A1C6AC9FEE3EB2E495C7E</string>
-					<string>A3D9616AEAA0C65A8589BFE4</string>
-					<string>8F955DEDAE7C2E5CD6AA936E</string>
-					<string>0FD969DD6B879E08CFDEEA73</string>
-					<string>ADDF55B516BCDB5ECBC24565</string>
-					<string>4B82C4357586B882B1A11BAD</string>
-					<string>861E7FC1DFEFB0B8EEB32F4D</string>
-					<string>921E037A44A2400CBB2E0F8F</string>
-					<string>D4F48F6F60D99739BCED1022</string>
-					<string>D32ED5985D3CFC7301DC42B5</string>
-					<string>E49EA4AA1A487492A4F3CEF9</string>
-					<string>E17D933D2D5ACBE1F97F3477</string>
-					<string>0DE39C47DBD3421A851BB33A</string>
-					<string>4F754499DF456997C75A78B9</string>
-					<string>CE8214571CD1AE819F4F3905</string>
-					<string>1D33EB1B6D5E67174C7D15D2</string>
-					<string>27F56DD90E5FAA8E27BB61A6</string>
-					<string>0097256BEFE767EAC0B6D243</string>
-					<string>F465DD38E5B37543492F446B</string>
-					<string>71B9EE9AD1E7C283E6B2F8EE</string>
-					<string>C0666348A681AAF15A44FA42</string>
-					<string>18A2AD3160DC3113A20FC224</string>
-					<string>69963FE5D976FE2DAA0A3420</string>
-					<string>AB669885660C8337E248F291</string>
-					<string>4082F2A42CE04B4BBA0B55FC</string>
-					<string>3D5EECB6FCCF52CFE66DD14C</string>
-					<string>0980241BE131F3A91DF083BB</string>
-					<string>05D4EDE5B511BE0C722CBA99</string>
-					<string>3EF9243C0EDF09625777C594</string>
-					<string>409A178AE97C535422132180</string>
-					<string>B5C764D5F61EA9BFD4322AED</string>
-					<string>B5568380FEB983C0EA50F169</string>
-					<string>34ACF2DE24B52C00E508F96F</string>
-					<string>030E7F8D069A72BD8FF36F00</string>
-					<string>B763A1176AB76D4FBB430480</string>
-					<string>955CA22F926A876647E0A7D4</string>
-					<string>2BE16A45BBA84E509C949B92</string>
-					<string>8FE60428D7678C8D52557F33</string>
-					<string>10B82D47287343119A47614B</string>
-					<string>606F1590D3762ECA2C706BB9</string>
-					<string>BB128E69D3651EC3436DE620</string>
-					<string>C447CF69C6E85F394AA9EE89</string>
-					<string>021AC398999AB3EDB3103EC7</string>
-					<string>9C4AF6CD04EA53E6A60280AC</string>
-					<string>13C3F2EF1CFA47A5ECDC9434</string>
-					<string>EBD15B4F033F1A06B203FC51</string>
-					<string>B268DD911237FE9E1B7F930D</string>
-					<string>B054C1E5F765586B9BFA7F0F</string>
-					<string>97C94941F7236B344A67D0A1</string>
-					<string>CA75F850CFCB44265D7D3E20</string>
-					<string>DCA4F40152EE6A9ABE490CAB</string>
-					<string>B3603F0A8F7E59FAAEE5903C</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>openssl</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>5D01FBD98B896D1E95F2D7BA</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>873FCEE79DC1870229F5F0FE</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>include</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>300C8FD4535AA5A2C0BEC9B5</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>5D01FBD98B896D1E95F2D7BA</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>openssl</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>2C652EBF09E5ACE1FCA5EB54</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>aes.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl/aes.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6BCE2C0500F46747D3DBD090</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>EBD8AA9BEB8DD614F90EC675</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>msgpack11</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>EBD8AA9BEB8DD614F90EC675</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>msgpack11.hpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11/msgpack11.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3D1C8BA2528FAE129AA82ADD</key>
-			<dict>
-				<key>fileRef</key>
-				<string>791585F2C8897FC92790A364</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>791585F2C8897FC92790A364</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>file</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>msgpack11</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>46CD1A758C87CD7D2DBFD4BB</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>829B1F3AC950A98AA056E188</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>cpp-linenoise</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>829B1F3AC950A98AA056E188</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>linenoise.hpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/linenoise.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B45205FF597E15364AD49B46</key>
-			<dict>
-				<key>fileRef</key>
-				<string>9FFBDE23A88DC8F628D6F5BB</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>9FFBDE23A88DC8F628D6F5BB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>file</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>cpp-linenoise</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>71401D8FF042EF5C4AA97425</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>7AEA81BB0D8A729631FF442C</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>cli11</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>DD87145A3A348AE7D512341B</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>71401D8FF042EF5C4AA97425</string>
-					<string>46CD1A758C87CD7D2DBFD4BB</string>
-					<string>6BCE2C0500F46747D3DBD090</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>third_party</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>7AEA81BB0D8A729631FF442C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>CLI11.hpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11/CLI11.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>FA6A733A1FA543FAA22511EC</key>
+			<key>EDBE17956EC830BEAB523A55</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1436,11 +125,11 @@
 				<key>name</key>
 				<string>IXWebSocketVersion.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketVersion.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketVersion.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E1258904B60652EB93BBB7D1</key>
+			<key>99F9C7F20A5E43AAB16E37CE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1451,11 +140,11 @@
 				<key>name</key>
 				<string>IXWebSocketTransport.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketTransport.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketTransport.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>70607C447BB081F91A3BED86</key>
+			<key>328605FDD84B9C4E7BD557E8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1466,11 +155,11 @@
 				<key>name</key>
 				<string>IXWebSocketServer.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketServer.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9D464788C40F4C0A95AAD7B4</key>
+			<key>B0CF7A536EDED2182561F254</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1481,11 +170,11 @@
 				<key>name</key>
 				<string>IXWebSocketSendInfo.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketSendInfo.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketSendInfo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>30F359B59C2FF67AABA83487</key>
+			<key>CCDE1435589223B022CD6FF2</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1496,11 +185,11 @@
 				<key>name</key>
 				<string>IXWebSocketProxyServer.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketProxyServer.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketProxyServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6D6EB6F1825D5B6CF70F8B51</key>
+			<key>161FBD706D2119A576C17522</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1511,11 +200,11 @@
 				<key>name</key>
 				<string>IXWebSocketPerMessageDeflateOptions.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketPerMessageDeflateOptions.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3DC4B8EEB3A8153305C07E40</key>
+			<key>47DE647A78B87E452AF6A626</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1526,11 +215,11 @@
 				<key>name</key>
 				<string>IXWebSocketPerMessageDeflateCodec.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketPerMessageDeflateCodec.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F2C06ABF9B51C67921D3E1C9</key>
+			<key>A0CAA5DAC5FFF7C0A60FD1F5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1541,11 +230,11 @@
 				<key>name</key>
 				<string>IXWebSocketPerMessageDeflate.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketPerMessageDeflate.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketPerMessageDeflate.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8907F8F140468FAE38831FF6</key>
+			<key>4805F4B763FA332773F54117</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1556,11 +245,11 @@
 				<key>name</key>
 				<string>IXWebSocketOpenInfo.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketOpenInfo.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketOpenInfo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F51DE61CABE90FB047667951</key>
+			<key>8096EED74D6F8B26033093B7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1571,11 +260,11 @@
 				<key>name</key>
 				<string>IXWebSocketMessageType.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketMessageType.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketMessageType.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DBA38BAD36B448271D1DB331</key>
+			<key>91B690231211DD5165C170D5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1586,11 +275,11 @@
 				<key>name</key>
 				<string>IXWebSocketMessage.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketMessage.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketMessage.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>960944F052395E2A2F4C52F3</key>
+			<key>2263F185D47E1A29E6538FA6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1601,11 +290,11 @@
 				<key>name</key>
 				<string>IXWebSocketInitResult.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketInitResult.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketInitResult.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>03BEB716B1F7C4FC05CD2722</key>
+			<key>5BA940884F79F7D8FB4E319E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1616,11 +305,11 @@
 				<key>name</key>
 				<string>IXWebSocketHttpHeaders.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketHttpHeaders.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketHttpHeaders.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1E347CBB125CF97F2C22C190</key>
+			<key>9BCBEEA0DBE22BA127C22A52</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1631,11 +320,11 @@
 				<key>name</key>
 				<string>IXWebSocketHandshakeKeyGen.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketHandshakeKeyGen.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketHandshakeKeyGen.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9DC1CCD42112A26800557373</key>
+			<key>8526F6819732656469A29AC0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1646,11 +335,11 @@
 				<key>name</key>
 				<string>IXWebSocketHandshake.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketHandshake.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketHandshake.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>945AB4F48B95E9AED3E56669</key>
+			<key>B595F7C1319D7F450AEB8E5A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1661,11 +350,11 @@
 				<key>name</key>
 				<string>IXWebSocketErrorInfo.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketErrorInfo.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketErrorInfo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>181165BBE045C43BB2B050DE</key>
+			<key>B446ACB4F8A13F94782DC410</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1676,11 +365,11 @@
 				<key>name</key>
 				<string>IXWebSocketCloseInfo.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketCloseInfo.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketCloseInfo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2FD6DDE6DE03FF2552656E12</key>
+			<key>DB445839E8F8A1C8B71EB863</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1691,11 +380,11 @@
 				<key>name</key>
 				<string>IXWebSocketCloseConstants.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocketCloseConstants.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocketCloseConstants.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E5D3AE2F0A97D8D9384F556B</key>
+			<key>6D486892C72EBC8CC01DD6D9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1706,11 +395,11 @@
 				<key>name</key>
 				<string>IXWebSocket.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXWebSocket.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXWebSocket.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>689EDD1CDA3A7A663F44360B</key>
+			<key>F5A4A83666B443C963CC2532</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1721,11 +410,11 @@
 				<key>name</key>
 				<string>IXUuid.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUuid.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUuid.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9E1ABB9925E0FA2AF84D1D88</key>
+			<key>EA2D6B695FC0A28CC22EC94A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1736,11 +425,11 @@
 				<key>name</key>
 				<string>IXUtf8Validator.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUtf8Validator.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUtf8Validator.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4361BB3E256A06399181B421</key>
+			<key>48FAD48034984D1A99BFC2CA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1751,11 +440,11 @@
 				<key>name</key>
 				<string>IXUserAgent.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUserAgent.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUserAgent.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CE04FDA61407444322F4BA2E</key>
+			<key>5A6FFD4259C607DFD7A2BB3D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1766,11 +455,11 @@
 				<key>name</key>
 				<string>IXUrlParser.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUrlParser.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUrlParser.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D110DF15197B6FEF79BC1940</key>
+			<key>D2A5FA848A8D4E4DFC23A95A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1781,11 +470,11 @@
 				<key>name</key>
 				<string>IXUniquePtr.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUniquePtr.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUniquePtr.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2782C120DD1C7B8702AF93E6</key>
+			<key>E5A52CFC055BE1286A8AC582</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1796,11 +485,11 @@
 				<key>name</key>
 				<string>IXUdpSocket.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXUdpSocket.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXUdpSocket.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>220B30E812305FAA0AE1EE88</key>
+			<key>E9D6FEB09772736C33BA1304</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1811,11 +500,11 @@
 				<key>name</key>
 				<string>IXStrCaseCompare.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXStrCaseCompare.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXStrCaseCompare.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A499F63F046FE7E610894AEC</key>
+			<key>07A8432C6C20035B8839F608</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1826,11 +515,11 @@
 				<key>name</key>
 				<string>IXSocketTLSOptions.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketTLSOptions.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketTLSOptions.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6DED01407F22E30A2FBD178D</key>
+			<key>8CE69058C11D6E999D0C1951</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1841,11 +530,11 @@
 				<key>name</key>
 				<string>IXSocketServer.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketServer.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9AB3AA7C73EF91DC39044114</key>
+			<key>C1044E956457D484AC274CE4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1856,11 +545,11 @@
 				<key>name</key>
 				<string>IXSocketOpenSSL.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketOpenSSL.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketOpenSSL.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>13443D302C7B3E8C26615210</key>
+			<key>60B8BE85AA855D25EAB6AAB9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1871,11 +560,11 @@
 				<key>name</key>
 				<string>IXSocketMbedTLS.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketMbedTLS.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketMbedTLS.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6E5AE44A935CB430C2BB9437</key>
+			<key>1FCB7E47DCBE37FF238E90C0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1886,11 +575,11 @@
 				<key>name</key>
 				<string>IXSocketFactory.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketFactory.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketFactory.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F0F3F0D3228352CC99204609</key>
+			<key>C9B3DFE3933E06309B38D8ED</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1901,11 +590,11 @@
 				<key>name</key>
 				<string>IXSocketConnect.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketConnect.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketConnect.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DA51D1A34C0B6698F8C0A36B</key>
+			<key>DE9AB2BAA8E7A4A30D9FC49D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1916,11 +605,11 @@
 				<key>name</key>
 				<string>IXSocketAppleSSL.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocketAppleSSL.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocketAppleSSL.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>561307ED857D2AF5D7EAACD5</key>
+			<key>0DAFCAD4FE88DA969EB1B19E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1931,11 +620,11 @@
 				<key>name</key>
 				<string>IXSocket.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSocket.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSocket.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0CC46AD4AC0E91BC59157440</key>
+			<key>9071B41699576E818FD96E7E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1946,11 +635,11 @@
 				<key>name</key>
 				<string>IXSetThreadName.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSetThreadName.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSetThreadName.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E584AB3DDEDEBDE722C6CCD9</key>
+			<key>E433E0EB451215301624B946</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1961,11 +650,11 @@
 				<key>name</key>
 				<string>IXSelectInterruptPipe.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSelectInterruptPipe.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSelectInterruptPipe.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>52A7C4E37B70B1D9CBE7F943</key>
+			<key>3999FFD89FBDC5CFEF3DA787</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1976,11 +665,11 @@
 				<key>name</key>
 				<string>IXSelectInterruptFactory.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSelectInterruptFactory.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSelectInterruptFactory.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9CF154E8C970CA6E2DFCEC4C</key>
+			<key>E762EA3322F17B953BBE06C5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1991,11 +680,11 @@
 				<key>name</key>
 				<string>IXSelectInterrupt.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXSelectInterrupt.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXSelectInterrupt.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6FB9876627E1741A4F69E6A0</key>
+			<key>95F0D03C10C17DD8912B72EE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2006,11 +695,11 @@
 				<key>name</key>
 				<string>IXProgressCallback.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXProgressCallback.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXProgressCallback.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2982730BFB219F339B9BD4F8</key>
+			<key>1317D7CB8B8D1303ED56BBF3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2021,11 +710,11 @@
 				<key>name</key>
 				<string>IXNetSystem.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXNetSystem.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXNetSystem.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>85F4F09040EBBF63AE3BEC31</key>
+			<key>6F4B194AA873AC6015F286C6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2036,11 +725,11 @@
 				<key>name</key>
 				<string>IXHttpServer.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXHttpServer.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXHttpServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FBE2CED3D19CAE712E5801D4</key>
+			<key>5D2A88519940FC9018A70A3C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2051,11 +740,11 @@
 				<key>name</key>
 				<string>IXHttpClient.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXHttpClient.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXHttpClient.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D9C1A06F91FA2D7D0E1C0D02</key>
+			<key>3859D14366FE52EBA0EAA618</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2066,11 +755,11 @@
 				<key>name</key>
 				<string>IXHttp.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXHttp.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXHttp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2EDE934E8F7E1E9C312D0D0F</key>
+			<key>B3AFBCD9491D5C818F177429</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2081,11 +770,11 @@
 				<key>name</key>
 				<string>IXGzipCodec.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXGzipCodec.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXGzipCodec.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9FFCA8E41DF5C61ED4FBF745</key>
+			<key>C7F9B9A17DBFF9EB93C640C4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2096,11 +785,11 @@
 				<key>name</key>
 				<string>IXGetFreePort.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXGetFreePort.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXGetFreePort.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>86EE55C447E0E0F633D800BF</key>
+			<key>D9FEA68359BEB6EA5C789891</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2111,11 +800,11 @@
 				<key>name</key>
 				<string>IXExponentialBackoff.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXExponentialBackoff.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXExponentialBackoff.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4EAC99B38B3BC183C620BE96</key>
+			<key>139839CD35A0AF7F53615D16</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2126,11 +815,11 @@
 				<key>name</key>
 				<string>IXDNSLookup.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXDNSLookup.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXDNSLookup.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4ED78BB2081EE58E40B6A175</key>
+			<key>FFE16AAAF0CED076F31C04D6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2141,11 +830,11 @@
 				<key>name</key>
 				<string>IXConnectionState.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXConnectionState.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXConnectionState.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5823560D819C133AB77465F1</key>
+			<key>947F4ECD25AD63C48766FCA9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2156,69 +845,69 @@
 				<key>name</key>
 				<string>IXCancellationRequest.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXCancellationRequest.h</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXCancellationRequest.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>73D607756AE4216094414125</key>
+			<key>1A54E8B07A0C2B9F542007E4</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>5CFAA86096576F02130E0662</string>
-					<string>5823560D819C133AB77465F1</string>
-					<string>4ED78BB2081EE58E40B6A175</string>
-					<string>4EAC99B38B3BC183C620BE96</string>
-					<string>86EE55C447E0E0F633D800BF</string>
-					<string>9FFCA8E41DF5C61ED4FBF745</string>
-					<string>2EDE934E8F7E1E9C312D0D0F</string>
-					<string>D9C1A06F91FA2D7D0E1C0D02</string>
-					<string>FBE2CED3D19CAE712E5801D4</string>
-					<string>85F4F09040EBBF63AE3BEC31</string>
-					<string>2982730BFB219F339B9BD4F8</string>
-					<string>6FB9876627E1741A4F69E6A0</string>
-					<string>9CF154E8C970CA6E2DFCEC4C</string>
-					<string>52A7C4E37B70B1D9CBE7F943</string>
-					<string>E584AB3DDEDEBDE722C6CCD9</string>
-					<string>0CC46AD4AC0E91BC59157440</string>
-					<string>561307ED857D2AF5D7EAACD5</string>
-					<string>DA51D1A34C0B6698F8C0A36B</string>
-					<string>F0F3F0D3228352CC99204609</string>
-					<string>6E5AE44A935CB430C2BB9437</string>
-					<string>13443D302C7B3E8C26615210</string>
-					<string>9AB3AA7C73EF91DC39044114</string>
-					<string>6DED01407F22E30A2FBD178D</string>
-					<string>A499F63F046FE7E610894AEC</string>
-					<string>220B30E812305FAA0AE1EE88</string>
-					<string>2782C120DD1C7B8702AF93E6</string>
-					<string>D110DF15197B6FEF79BC1940</string>
-					<string>CE04FDA61407444322F4BA2E</string>
-					<string>4361BB3E256A06399181B421</string>
-					<string>9E1ABB9925E0FA2AF84D1D88</string>
-					<string>689EDD1CDA3A7A663F44360B</string>
-					<string>E5D3AE2F0A97D8D9384F556B</string>
-					<string>2FD6DDE6DE03FF2552656E12</string>
-					<string>181165BBE045C43BB2B050DE</string>
-					<string>945AB4F48B95E9AED3E56669</string>
-					<string>9DC1CCD42112A26800557373</string>
-					<string>1E347CBB125CF97F2C22C190</string>
-					<string>03BEB716B1F7C4FC05CD2722</string>
-					<string>960944F052395E2A2F4C52F3</string>
-					<string>DBA38BAD36B448271D1DB331</string>
-					<string>F51DE61CABE90FB047667951</string>
-					<string>8907F8F140468FAE38831FF6</string>
-					<string>F2C06ABF9B51C67921D3E1C9</string>
-					<string>3DC4B8EEB3A8153305C07E40</string>
-					<string>6D6EB6F1825D5B6CF70F8B51</string>
-					<string>30F359B59C2FF67AABA83487</string>
-					<string>9D464788C40F4C0A95AAD7B4</string>
-					<string>70607C447BB081F91A3BED86</string>
-					<string>E1258904B60652EB93BBB7D1</string>
-					<string>FA6A733A1FA543FAA22511EC</string>
+					<string>931CED3FE2D871BD2A1D6F13</string>
+					<string>947F4ECD25AD63C48766FCA9</string>
+					<string>FFE16AAAF0CED076F31C04D6</string>
+					<string>139839CD35A0AF7F53615D16</string>
+					<string>D9FEA68359BEB6EA5C789891</string>
+					<string>C7F9B9A17DBFF9EB93C640C4</string>
+					<string>B3AFBCD9491D5C818F177429</string>
+					<string>3859D14366FE52EBA0EAA618</string>
+					<string>5D2A88519940FC9018A70A3C</string>
+					<string>6F4B194AA873AC6015F286C6</string>
+					<string>1317D7CB8B8D1303ED56BBF3</string>
+					<string>95F0D03C10C17DD8912B72EE</string>
+					<string>E762EA3322F17B953BBE06C5</string>
+					<string>3999FFD89FBDC5CFEF3DA787</string>
+					<string>E433E0EB451215301624B946</string>
+					<string>9071B41699576E818FD96E7E</string>
+					<string>0DAFCAD4FE88DA969EB1B19E</string>
+					<string>DE9AB2BAA8E7A4A30D9FC49D</string>
+					<string>C9B3DFE3933E06309B38D8ED</string>
+					<string>1FCB7E47DCBE37FF238E90C0</string>
+					<string>60B8BE85AA855D25EAB6AAB9</string>
+					<string>C1044E956457D484AC274CE4</string>
+					<string>8CE69058C11D6E999D0C1951</string>
+					<string>07A8432C6C20035B8839F608</string>
+					<string>E9D6FEB09772736C33BA1304</string>
+					<string>E5A52CFC055BE1286A8AC582</string>
+					<string>D2A5FA848A8D4E4DFC23A95A</string>
+					<string>5A6FFD4259C607DFD7A2BB3D</string>
+					<string>48FAD48034984D1A99BFC2CA</string>
+					<string>EA2D6B695FC0A28CC22EC94A</string>
+					<string>F5A4A83666B443C963CC2532</string>
+					<string>6D486892C72EBC8CC01DD6D9</string>
+					<string>DB445839E8F8A1C8B71EB863</string>
+					<string>B446ACB4F8A13F94782DC410</string>
+					<string>B595F7C1319D7F450AEB8E5A</string>
+					<string>8526F6819732656469A29AC0</string>
+					<string>9BCBEEA0DBE22BA127C22A52</string>
+					<string>5BA940884F79F7D8FB4E319E</string>
+					<string>2263F185D47E1A29E6538FA6</string>
+					<string>91B690231211DD5165C170D5</string>
+					<string>8096EED74D6F8B26033093B7</string>
+					<string>4805F4B763FA332773F54117</string>
+					<string>A0CAA5DAC5FFF7C0A60FD1F5</string>
+					<string>47DE647A78B87E452AF6A626</string>
+					<string>161FBD706D2119A576C17522</string>
+					<string>CCDE1435589223B022CD6FF2</string>
+					<string>B0CF7A536EDED2182561F254</string>
+					<string>328605FDD84B9C4E7BD557E8</string>
+					<string>99F9C7F20A5E43AAB16E37CE</string>
+					<string>EDBE17956EC830BEAB523A55</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>ixwebsocket</string>
+				<string>include</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
@@ -2226,8 +915,7 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>73D607756AE4216094414125</string>
-					<string>DD87145A3A348AE7D512341B</string>
+					<string>1A54E8B07A0C2B9F542007E4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2241,7 +929,6 @@
 				<key>children</key>
 				<array>
 					<string>D6B9C4788ABA3B63746F03C7</string>
-					<string>300C8FD4535AA5A2C0BEC9B5</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2256,6 +943,7 @@
 				<array>
 					<string>A4DC5588A499D6FEE3BFEB1F</string>
 					<string>25294785B33364C337F55292</string>
+					<string>ED08BD0A24C8CB643A8567D9</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2264,7 +952,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>5CFAA86096576F02130E0662</key>
+			<key>931CED3FE2D871BD2A1D6F13</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2275,29 +963,7 @@
 				<key>name</key>
 				<string>IXBench.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket/IXBench.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0A234A6EE110571036C0A523</key>
-			<dict>
-				<key>fileRef</key>
-				<string>73416B3F1CDE33D3722A90DE</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>73416B3F1CDE33D3722A90DE</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>file</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ixwebsocket</string>
-				<key>path</key>
-				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
+				<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include/IXBench.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2468,39 +1134,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -2542,11 +1181,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -2577,6 +1259,8 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>/System/Library/Frameworks</string>
+						<string>/System/Library/Frameworks</string>
 					</array>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
@@ -2588,39 +1272,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -2662,11 +1319,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -2685,10 +1385,8 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
@@ -5472,39 +4170,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -5546,11 +4217,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -5612,39 +4326,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -5686,11 +4373,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -5716,9 +4446,6 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>0A234A6EE110571036C0A523</string>
-					<string>B45205FF597E15364AD49B46</string>
-					<string>3D1C8BA2528FAE129AA82ADD</string>
 					<string>8D1968F8E33FF3D7B959FEE4</string>
 				</array>
 				<key>isa</key>
@@ -5733,6 +4460,8 @@ fi
 				<key>files</key>
 				<array>
 					<string>E4328149138ABC9F0047C5CB</string>
+					<string>FDCB97E23CB71E30D579B71E</string>
+					<string>110E22E79376B41BA364911D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXFrameworksBuildPhase</string>
@@ -5808,6 +4537,8 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>/System/Library/Frameworks</string>
+						<string>/System/Library/Frameworks</string>
 					</array>
 					<key>GCC_DYNAMIC_NO_PIC</key>
 					<string>NO</string>
@@ -5819,39 +4550,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -5893,11 +4597,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -5916,10 +4663,8 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF_DEBUG)</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)Debug</string>
@@ -5944,6 +4689,8 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>/System/Library/Frameworks</string>
+						<string>/System/Library/Frameworks</string>
 					</array>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
@@ -5953,39 +4700,12 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../addons/ofxIXWebSocket/libs</string>
 						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/CMake</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docker</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/docs</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/Catch2/single_include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/cpp/libwebsockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/csharp</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/node</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websocket-client</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/python/websockets/vendor</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/compatibility/ruby</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/test/data</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise/example</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/tools</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ws</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include/openssl</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/license</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/amiga</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/contrib</string>
@@ -6027,11 +4747,54 @@ fi
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/watcom</string>
 						<string>../../../addons/ofxIXWebSocket/libs/zlib-1.2.11/win32</string>
 						<string>../../../addons/ofxIXWebSocket/src</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/ixwebsocket</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cli11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/cpp-linenoise</string>
-						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/third_party/msgpack11</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/include</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXBench.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXCancellationRequest.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXConnectionState.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXDNSLookup.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXExponentialBackoff.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGetFreePort.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXGzipCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttp.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpClient.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXHttpServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXNetSystem.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXProgressCallback.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterrupt.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSelectInterruptPipe.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSetThreadName.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketConnect.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketFactory.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketTLSOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXStrCaseCompare.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUdpSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUniquePtr.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUrlParser.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUserAgent.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUtf8Validator.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXUuid.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocket.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseConstants.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketCloseInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketErrorInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshake.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHandshakeKeyGen.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketHttpHeaders.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketInitResult.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessage.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketMessageType.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketOpenInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflate.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateCodec.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketPerMessageDeflateOptions.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketProxyServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketSendInfo.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketServer.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketTransport.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXWebSocketVersion.h</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/IXSocketAppleSSL.h</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -6050,10 +4813,8 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/crypto.a</string>
-						<string>../../../addons/ofxIXWebSocket/libs/openssl/lib/osx/ssl.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
+						<string>../../../addons/ofxIXWebSocket/libs/IXWebSocket/lib/osx/libixwebsocket.a</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
