@@ -211,7 +211,7 @@ void ofxIXWebSocket::setCacertFile(std::string filepath){
 	if(ofFilePath::isAbsolute(filepath)){
 		tls_->caFile = filepath;
 	}else{
-		tls_->caFile = ofFilePath::getAbsolutePath(filepath);
+		tls_->caFile = ofFilePath::getAbsolutePath("../"+filepath);
 	}
 	
 	if(_b_verbose){
@@ -230,7 +230,7 @@ void ofxIXWebSocket::setVerbose(bool val){
     }
     _b_verbose = val;
 }
-inline bool ofxIXWebSocket::getVerbose(){
+bool ofxIXWebSocket::getVerbose(){
     if(_b_verbose){
         ofLogNotice() << __PRETTY_FUNCTION__;
     }
@@ -255,7 +255,7 @@ void ofxIXWebSocket::setIntervalPingSec(unsigned int sec){
 	_ping_intvl_sec = sec;
 	ws_.setPingInterval(_ping_intvl_sec);
 }
-inline int ofxIXWebSocket::getIntervalPingSec(){
+int ofxIXWebSocket::getIntervalPingSec(){
 	return _ping_intvl_sec;
 }
 
@@ -264,6 +264,19 @@ void ofxIXWebSocket::setPerMessageDeflate(bool val){
 	_b_per_msg_deflate ? ws_.enablePerMessageDeflate()
 					   : ws_.disablePerMessageDeflate();
 }
-inline bool ofxIXWebSocket::getPerMessageDeflate(){
+bool ofxIXWebSocket::getPerMessageDeflate(){
 	return _b_per_msg_deflate;
+}
+
+void ofxIXWebSocket::setAutoReconnection(bool val){
+    _b_auto_reconnect = val;
+    val ? ws_.enableAutomaticReconnection()
+        : ws_.disableAutomaticReconnection();
+}
+bool ofxIXWebSocket::getAutoReconnection(){
+    return ws_.isAutomaticReconnectionEnabled();
+}
+
+ix::ReadyState ofxIXWebSocket::getReadyState(){
+    return ws_.getReadyState();
 }
