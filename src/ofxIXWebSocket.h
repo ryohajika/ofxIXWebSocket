@@ -32,6 +32,7 @@ private:
 	
 	int _ping_intvl_sec;
     bool _b_per_msg_deflate;
+    bool _b_auto_reconnect;
     bool _b_verbose;
 	
 public:
@@ -58,9 +59,13 @@ public:
 	void setPinging(bool val);
 	bool getPinging();
 	void setIntervalPingSec(unsigned sec);
-	int getIntervalPingSec();
+	int  getIntervalPingSec();
 	void setPerMessageDeflate(bool val);
 	bool getPerMessageDeflate();
+    void setAutoReconnection(bool val);
+    bool getAutoReconnection();
+    
+    ix::ReadyState getReadyState();
  
     ofEvent<ix::WebSocketHttpHeaders> onOpenEvt;
 	ofEvent<std::pair<uint16_t, std::string>> onCloseEvt;
